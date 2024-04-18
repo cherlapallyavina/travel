@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <!--media queries
+       it is used to make responsive website
+    responive: compactable for every design
+screen sizes:
+x-small <576px 
+small >/576px
+medium >/ 768px
+large >/992px
+extra large >/1200px
+extra extra large >/1400px
+
+@media(max-width: or min width:) 
+rule:
+* whatever selectors we are creating that every selector should not in the media queries
+*alwyas in tne media queries we are going to use few selectors which we have to change and also whenever we are using some selector whatever the sstyling properties we have included by defalut shouldnot be used inthe media queries
+(what ever changes we requried only that properties we are including media queries)
+`*while implementing csss while styling the each and element of html parallely we have to write mediea for that particular the 
+and we shiould not implemt media queries at the end of queries
+
+-->
+
+<style>
+    div{
+        max-width: 500px;
+        height: 300px;
+        background-color: blueviolet;
+    }
+    h1{
+        display: none;
+    }
+
+    @media screen  and(max-width:400px) and (min-width:200px){
+    }
+
+        div{
+            background-color: brown;
+        }
+    
+        
+    h1{
+        diplay: block;    
+    }
+
+
+</style>
+<div>
+<h1>hi</h1>
+</div>
+
+
+
+
+</body>
+</html>

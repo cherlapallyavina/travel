@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+}
+
+body{
+    background:linear-gradient(150deg,rgb(126, 145, 228),rgb(222, 113, 226)) ;
+    display: flex;
+   
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+
+}
+
+section{
+    width: 450px;
+    display: flex;
+    height:350px;
+    border-radius: 10px;
+    background-color: black;
+}
+img{
+    width: 200px;
+    height: 350px;
+    border-radius: 10px 0px 0px 10px;
+
+}
+
+.form{
+    margin: 30px;
+}
+
+.form h1{
+    color: white;
+}
+
+i{
+    color: grey;
+    position: relative;
+    right: 20px;
+}
+
+input,select{
+    margin-top: 15px;
+    background-color: black;
+    width: 150px;
+ 
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 0.1px solid rgb(46, 45, 45);
+   
+}
+
+input:focus,select:focus{
+
+    border-bottom: 2px solid rgb(213, 192, 192);
+    outline: none;
+}
+
+input{
+    padding: 5px;                  /* <option value="">Male</option> */
+color: white;
+}
+
+select{
+    color: grey !important;
+    padding-left: -8px;
+    width: 160px;
+
+}
+
+option{
+    color: rgb(255, 255, 255);
+}
+
+button{
+    margin-top: 20px;
+    background-color: rgb(114, 194, 105);
+    border-radius: 15px;
+    color: white;
+    padding: 3px 15px;
+}*

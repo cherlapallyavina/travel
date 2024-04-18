@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- flex box properties-
+      when flexwrap used align items are not used
+      when flexwrap used align
+       content where used
+      firstly we to used height 100 viewport-->
+    <style>
+       
+     section{
+        display: flex;
+        /*flex-direction: row;
+        flex-wrap: wrap;*/
+       /* justify-content: space-center;
+        justify-content: space-around;
+        justify-content: space-between;*/
+       /* justify-content: space-evenly;*/
+        height: 100vh;
+        align-content: center;
+        flex-flow: column wrap;
+        justify-content: space-between;
+        
+        /*gap: 1rem;*/
+     }
+     div{
+        width: 300px;
+        height: 300px;
+     }
+     div:nth-child(odd){
+        background-color: rgb(255, 85, 0);
+     }
+     div{
+        width: 400px;
+        height: 400px;
+     }
+     div:nth-child(even){
+        background-color: rgb(166, 255, 0);
+     }
+
+
+
+    </style>
+
+    <section>
+
+     
+     <div class="div1"></div>
+     <div class="div2"></div>
+     <div class="div3"></div>
+     <div class="div4"></div>
+     <div class="div5"></div>
+     <div class="div6"></div>
+    </section>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
